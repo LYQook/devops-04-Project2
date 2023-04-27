@@ -9,7 +9,7 @@ const {
  
 module.exports = fp(async function (fastify, opts) {
     fastify.register(require('@fastify/mongodb'), {
-        connectionString: 
+        url: 
         `mongodb://${MONGO_INITDB_ROOT_USERNAME}:${MONGO_INITDB_ROOT_PASSWORD}@mongo:27017`
       })
 })
