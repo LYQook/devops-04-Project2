@@ -7,7 +7,7 @@ const { MONGO_INITDB_ROOT_USERNAME, MONGO_INITDB_ROOT_PASSWORD, MONGO_INITDB_ROO
 module.exports = fp(async function (fastify, opts) {
   const url = `mongodb://${MONGO_INITDB_ROOT_USERNAME}:${MONGO_INITDB_ROOT_PASSWORD}@${MONGO_INITDB_ROOT_HOSTNAME}:27017/?authMechanism=DEFAULT`
   console.log(url)
-
+  console.log('qooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooook')
   fastify.register(require('@fastify/mongodb'), {
     forceClose: true,
     url: url
