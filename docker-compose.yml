@@ -2,7 +2,7 @@ version: '3.1'
 
 services:
   server:
-    image: qs2:1.1.9
+    image: qs2:1.2.0
     restart: always
     container_name: server
     ports:
@@ -21,4 +21,5 @@ services:
     environment:
       MONGO_INITDB_ROOT_USERNAME: ${MONGO_INITDB_ROOT_USERNAME}
       MONGO_INITDB_ROOT_PASSWORD: ${MONGO_INITDB_ROOT_PASSWORD}
+      MONGO_INITDB_ROOT_HOSTNAME: ${MONGO_INITDB_ROOT_HOSTNAME}
 
