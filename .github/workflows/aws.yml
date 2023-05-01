@@ -1,10 +1,8 @@
 name: Deploy Release to AWS ECS
 
 on:
-  release:
-    types: [created]
-    tags:
-      - '*'
+  push:
+    branches: [ "main"]
 
 env:
   AWS_REGION: ap-northeast-2
