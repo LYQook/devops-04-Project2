@@ -1,9 +1,9 @@
 {
-    "taskDefinitionArn": "arn:aws:ecs:ap-northeast-2:517061613095:task-definition/teskserver22:1",
+    "taskDefinitionArn": "arn:aws:ecs:ap-northeast-2:517061613095:task-definition/teskserver22:14",
     "containerDefinitions": [
         {
             "name": "teskserver2",
-            "image": "517061613095.dkr.ecr.ap-northeast-2.amazonaws.com/qs2:2410606c9cebd944426c9e896ee9debe98096342",
+            "image": "517061613095.dkr.ecr.ap-northeast-2.amazonaws.com/qs2:2.0",
             "cpu": 0,
             "portMappings": [
                 {
@@ -16,7 +16,6 @@
             ],
             "essential": true,
             "environment": [],
-            "environmentFiles": [],
             "mountPoints": [],
             "volumesFrom": [],
             "secrets": [
@@ -33,7 +32,6 @@
                     "valueFrom": "arn:aws:secretsmanager:ap-northeast-2:517061613095:secret:mongo-secret-data-lD2VpV:MONGO_INITDB_ROOT_PASSWORD::"
                 }
             ],
-            "ulimits": [],
             "logConfiguration": {
                 "logDriver": "awslogs",
                 "options": {
@@ -48,7 +46,7 @@
     "family": "teskserver22",
     "executionRoleArn": "arn:aws:iam::517061613095:role/ecsTaskExecutionRole",
     "networkMode": "awsvpc",
-    "revision": 1,
+    "revision": 14,
     "volumes": [],
     "status": "ACTIVE",
     "requiresAttributes": [
@@ -94,7 +92,7 @@
         "cpuArchitecture": "X86_64",
         "operatingSystemFamily": "LINUX"
     },
-    "registeredAt": "2023-04-28T15:26:49.473Z",
+    "registeredAt": "2023-05-01T13:28:38.091Z",
     "registeredBy": "arn:aws:iam::517061613095:root",
     "tags": []
 }
