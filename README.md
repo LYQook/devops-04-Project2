@@ -1,4 +1,4 @@
-![캡처](https://user-images.githubusercontent.com/126463472/235684138-662b70c7-f5c6-4dac-9c87-2c8c1d0e9ca6.PNG)
+![image](https://user-images.githubusercontent.com/126463472/235684722-a0b38853-345c-4116-b44b-9a3ab12d9c3f.png)
 
 
 # ✔ 실습내용
