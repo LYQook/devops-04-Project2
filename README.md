@@ -1,8 +1,10 @@
+![Untitled (3)](https://user-images.githubusercontent.com/126463472/235673251-b4d32310-c55c-44d2-93f9-b0ac3718d91e.png)
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/cd0b8384-65fc-4d9c-a07f-ac90673001b4/Untitled.png)
 
 # ✔ 실습내용
 - was 및 mongoDB 이미지를 AWS ECS를 통해 배포
+  - Github Action을 통해 빌드와 배포 자동화를 했습니다
+    aws서비스 안에서 pipeline과 build가 가능하지만 해보지 않은 Github Action을 사용해보고 싶었음
 - CDN(CloudFront)을 통해 프론트엔드를 캐싱하고, HTTPS를 적용
 - 프론트엔드와 WAS를 연결
 ---
@@ -24,3 +26,6 @@
 [23.5.1 **마일스톤8 - 프론트엔드 HTTPS 적용**](https://www.notion.so/23-5-1-8-HTTPS-950e8462b6d34b8094b0e2ac3f816f1d)
 
 [23.5.1 **마일스톤9 - 프론트엔드-서버 연결 확인**](https://www.notion.so/23-5-1-9-a5b892755a7849e79795665bc22b215c)
+
+# ✔ 주의
+- 프론트와 reopsitorie가 나뉘어 있어서 구현은 안됩니다.
