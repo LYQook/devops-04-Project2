@@ -3,8 +3,8 @@
 
 # ✔ 실습내용
 - was 및 mongoDB 이미지를 AWS ECS를 통해 배포
-  - Github Action을 통해 빌드와 배포 자동화를 했습니다
-    aws서비스 안에서 pipeline과 build가 가능하지만 해보지 않은 Github Action을 사용해보고 싶었음
+  - Github Action을 통해 빌드와 배포 자동화를 했습니다.
+    aws서비스 안에서 pipeline과 build가 가능하지만 Github Action을 사용해서 자동화 해본적이 없어서 사용함.
 - CDN(CloudFront)을 통해 프론트엔드를 캐싱하고, HTTPS를 적용
 - 프론트엔드와 WAS를 연결
 ---
